@@ -1,0 +1,36 @@
+{
+  "name": "redux-saga-example",
+  "version": "1.0.0",
+  "description": "A react-redux project which utilises redux-saga middleware",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarathps93/redux-saga-example.git"
+  },
+  "author": "Sarath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarathps93/redux-saga-example/issues"
+  },
+  "homepage": "https://github.com/sarathps93/redux-saga-example#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "webpack": "^4.35.0",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.4",
+    "webpack-cli": "^3.3.5"
+  }
+}
