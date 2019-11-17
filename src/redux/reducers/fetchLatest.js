@@ -1,4 +1,4 @@
-const types = {
+export const types = {
     fetch_latest_requested: "fetch/fetch_latest_requested",
     fetch_latest_received: "fetch/fetch_latest_received",
     fetch_latest_error: "fetch/fetch_latest_error"

@@ -1,4 +1,4 @@
-const types = {
+export const types = {
     fetch_every_requested: "fetch/fetch_every_requested",
     fetch_every_received: "fetch/fetch_every_received",
     fetch_every_error: "fetch/fetch_every_error"
