@@ -13,7 +13,10 @@ export default (state = initialState, action) => {
     switch (action.type) {
         case types.fetch_latest_requested: return {...state, loading: true };
         case types.fetch_latest_error: return { ...state, error: true, loading: false };
-        case types.fetch_latest_received: return { ...state, data: [...action.payload], loading: false };
+        case types.fetch_latest_received: 
+            return { ...state, data: state.data.concat(action.payload), loading: false };
         default: return initialState;
     }
 }
+
+export const requestFetchLatest = () => ({ type: types.fetch_latest_requested });
